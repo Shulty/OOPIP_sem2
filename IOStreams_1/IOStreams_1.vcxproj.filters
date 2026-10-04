@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Items">
+      <UniqueIdentifier>{6d26b074-26d0-46e4-85e3-36ddced235db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Extras">
+      <UniqueIdentifier>{85c35c81-a3b7-4f9c-9b4c-f08fa24f8d23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Extras">
+      <UniqueIdentifier>{631e5774-dab7-4389-b015-2bdde90e7a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Items">
+      <UniqueIdentifier>{5781308b-6f9e-4ff4-bbec-2e5d0801aaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\logic">
+      <UniqueIdentifier>{87fe7480-f051-4b3d-a8f6-ff7794ea6213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\logic">
+      <UniqueIdentifier>{a3e37a96-4798-47db-b8e8-946d1a74ccdb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы\Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemArray.cpp">
+      <Filter>Исходные файлы\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Medicine.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Tablets.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="LiquidMedicine.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="MedicalDevice.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Parapharmaceutical.cpp">
+      <Filter>Исходные файлы\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Исходные файлы\logic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemFabric.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Файлы заголовков\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Файлы заголовков\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemArray.h">
+      <Filter>Файлы заголовков\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Medicine.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Tablets.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidMedicine.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="MedicalDevice.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Parapharmaceutical.h">
+      <Filter>Файлы заголовков\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Файлы заголовков\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Filler.h">
+      <Filter>Файлы заголовков\Extras</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="IOStreams_1/IOStreams_1.vcxproj" Id="f6da8710-0ff8-4b52-a8e0-ac5ed3852071" />
+  <Project Path="LabsMenu/LabsMenu.vcxproj" />
+</Solution>
