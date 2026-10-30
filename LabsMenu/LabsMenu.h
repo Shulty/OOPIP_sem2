@@ -1,4 +1,6 @@
 #pragma once
+#include "../../OOPIP_MolchanM/OOPIP_MolchanM/Lab1.h"
+#include "../../OOPIP_MolchanM/OOPIP_MolchanM/lab4.h"
 namespace LabsMenu {
 
 	using namespace System;
@@ -92,7 +94,9 @@ namespace LabsMenu {
 			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button1->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button1->Location = System::Drawing::Point(235, 27);
 			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(198, 33);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Input / Output";
 			this->button1->UseVisualStyleBackColor = false;
@@ -103,8 +107,11 @@ namespace LabsMenu {
 			this->button2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button2->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button2->Location = System::Drawing::Point(235, 69);
 			this->button2->Name = L"button2";
+			this->button2->Size = System::Drawing::Size(198, 82);
 			this->button2->TabIndex = 1;
+			this->button2->Text = L"File Input / Output";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &LabsMenu::button2_Click);
 			// 
@@ -113,7 +120,9 @@ namespace LabsMenu {
 			this->button3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button3->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button3->Location = System::Drawing::Point(235, 163);
 			this->button3->Name = L"button3";
+			this->button3->Size = System::Drawing::Size(198, 33);
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"Lab3";
 			this->button3->UseVisualStyleBackColor = false;
@@ -124,7 +133,9 @@ namespace LabsMenu {
 			this->button4->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button4->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button4->Location = System::Drawing::Point(235, 201);
 			this->button4->Name = L"button4";
+			this->button4->Size = System::Drawing::Size(198, 33);
 			this->button4->TabIndex = 3;
 			this->button4->Text = L"Lab4";
 			this->button4->UseVisualStyleBackColor = false;
@@ -133,7 +144,9 @@ namespace LabsMenu {
 			// pictureBox1
 			// 
 			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"pictureBox1.Image")));
+			this->pictureBox1->Location = System::Drawing::Point(-5, 1);
 			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(457, 621);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 4;
 			this->pictureBox1->TabStop = false;
@@ -143,7 +156,9 @@ namespace LabsMenu {
 			this->button5->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button5->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button5->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button5->Location = System::Drawing::Point(235, 239);
 			this->button5->Name = L"button5";
+			this->button5->Size = System::Drawing::Size(198, 33);
 			this->button5->TabIndex = 5;
 			this->button5->Text = L"Lab5";
 			this->button5->UseVisualStyleBackColor = false;
@@ -154,7 +169,9 @@ namespace LabsMenu {
 			this->button6->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button6->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button6->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button6->Location = System::Drawing::Point(235, 277);
 			this->button6->Name = L"button6";
+			this->button6->Size = System::Drawing::Size(198, 33);
 			this->button6->TabIndex = 6;
 			this->button6->Text = L"Lab6";
 			this->button6->UseVisualStyleBackColor = false;
@@ -165,7 +182,9 @@ namespace LabsMenu {
 			this->button7->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button7->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button7->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
+			this->button7->Location = System::Drawing::Point(235, 315);
 			this->button7->Name = L"button7";
+			this->button7->Size = System::Drawing::Size(198, 33);
 			this->button7->TabIndex = 7;
 			this->button7->Text = L"Lab7";
 			this->button7->UseVisualStyleBackColor = false;
@@ -176,10 +195,10 @@ namespace LabsMenu {
 			this->button8->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button8->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button8->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button8->Location = System::Drawing::Point(31, 387);
+			this->button8->Location = System::Drawing::Point(26, 314);
 			this->button8->Margin = System::Windows::Forms::Padding(8);
 			this->button8->Name = L"button8";
-			this->button8->Size = System::Drawing::Size(198, 41);
+			this->button8->Size = System::Drawing::Size(198, 33);
 			this->button8->TabIndex = 14;
 			this->button8->Text = L"Templates";
 			this->button8->UseVisualStyleBackColor = false;
@@ -190,10 +209,10 @@ namespace LabsMenu {
 			this->button9->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button9->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button9->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.8F));
-			this->button9->Location = System::Drawing::Point(31, 330);
+			this->button9->Location = System::Drawing::Point(26, 265);
 			this->button9->Margin = System::Windows::Forms::Padding(8);
 			this->button9->Name = L"button9";
-			this->button9->Size = System::Drawing::Size(198, 41);
+			this->button9->Size = System::Drawing::Size(198, 33);
 			this->button9->TabIndex = 13;
 			this->button9->Text = L"Virtual Inheritance";
 			this->button9->UseVisualStyleBackColor = false;
@@ -204,10 +223,10 @@ namespace LabsMenu {
 			this->button10->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button10->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button10->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button10->Location = System::Drawing::Point(31, 273);
+			this->button10->Location = System::Drawing::Point(26, 216);
 			this->button10->Margin = System::Windows::Forms::Padding(8);
 			this->button10->Name = L"button10";
-			this->button10->Size = System::Drawing::Size(198, 41);
+			this->button10->Size = System::Drawing::Size(198, 33);
 			this->button10->TabIndex = 12;
 			this->button10->Text = L"Polymorphism";
 			this->button10->UseVisualStyleBackColor = false;
@@ -218,10 +237,10 @@ namespace LabsMenu {
 			this->button11->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button11->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button11->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button11->Location = System::Drawing::Point(31, 216);
+			this->button11->Location = System::Drawing::Point(26, 167);
 			this->button11->Margin = System::Windows::Forms::Padding(8);
 			this->button11->Name = L"button11";
-			this->button11->Size = System::Drawing::Size(198, 41);
+			this->button11->Size = System::Drawing::Size(198, 33);
 			this->button11->TabIndex = 11;
 			this->button11->Text = L"Inheritance";
 			this->button11->UseVisualStyleBackColor = false;
@@ -232,10 +251,10 @@ namespace LabsMenu {
 			this->button12->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button12->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button12->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button12->Location = System::Drawing::Point(31, 159);
+			this->button12->Location = System::Drawing::Point(26, 118);
 			this->button12->Margin = System::Windows::Forms::Padding(8);
 			this->button12->Name = L"button12";
-			this->button12->Size = System::Drawing::Size(198, 41);
+			this->button12->Size = System::Drawing::Size(198, 33);
 			this->button12->TabIndex = 10;
 			this->button12->Text = L"Friend Functions";
 			this->button12->UseVisualStyleBackColor = false;
@@ -246,10 +265,10 @@ namespace LabsMenu {
 			this->button13->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button13->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button13->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button13->Location = System::Drawing::Point(31, 102);
+			this->button13->Location = System::Drawing::Point(26, 27);
 			this->button13->Margin = System::Windows::Forms::Padding(8);
 			this->button13->Name = L"button13";
-			this->button13->Size = System::Drawing::Size(198, 41);
+			this->button13->Size = System::Drawing::Size(198, 33);
 			this->button13->TabIndex = 9;
 			this->button13->Text = L"Dynamic memory";
 			this->button13->UseVisualStyleBackColor = false;
@@ -260,10 +279,10 @@ namespace LabsMenu {
 			this->button14->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button14->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button14->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button14->Location = System::Drawing::Point(31, 46);
+			this->button14->Location = System::Drawing::Point(26, 69);
 			this->button14->Margin = System::Windows::Forms::Padding(8);
 			this->button14->Name = L"button14";
-			this->button14->Size = System::Drawing::Size(198, 41);
+			this->button14->Size = System::Drawing::Size(198, 33);
 			this->button14->TabIndex = 8;
 			this->button14->Text = L"Queue";
 			this->button14->UseVisualStyleBackColor = false;
@@ -274,10 +293,10 @@ namespace LabsMenu {
 			this->button15->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button15->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button15->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button15->Location = System::Drawing::Point(31, 444);
+			this->button15->Location = System::Drawing::Point(26, 363);
 			this->button15->Margin = System::Windows::Forms::Padding(8);
 			this->button15->Name = L"button15";
-			this->button15->Size = System::Drawing::Size(198, 41);
+			this->button15->Size = System::Drawing::Size(198, 33);
 			this->button15->TabIndex = 15;
 			this->button15->Text = L"Smart pointers";
 			this->button15->UseVisualStyleBackColor = false;
@@ -288,10 +307,10 @@ namespace LabsMenu {
 			this->button16->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
 			this->button16->BackColor = System::Drawing::Color::MediumTurquoise;
 			this->button16->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 16.8F));
-			this->button16->Location = System::Drawing::Point(31, 500);
+			this->button16->Location = System::Drawing::Point(26, 412);
 			this->button16->Margin = System::Windows::Forms::Padding(8);
 			this->button16->Name = L"button16";
-			this->button16->Size = System::Drawing::Size(198, 41);
+			this->button16->Size = System::Drawing::Size(198, 33);
 			this->button16->TabIndex = 16;
 			this->button16->Text = L"Exceptions";
 			this->button16->UseVisualStyleBackColor = false;
@@ -299,7 +318,18 @@ namespace LabsMenu {
 			// 
 			// LabsMenu
 			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(450, 618);
+			this->Controls->Add(this->button16);
+			this->Controls->Add(this->button15);
+			this->Controls->Add(this->button14);
+			this->Controls->Add(this->button13);
+			this->Controls->Add(this->button12);
+			this->Controls->Add(this->button11);
+			this->Controls->Add(this->button10);
+			this->Controls->Add(this->button9);
+			this->Controls->Add(this->button8);
 			this->Controls->Add(this->button7);
 			this->Controls->Add(this->button6);
 			this->Controls->Add(this->button5);
@@ -326,6 +356,7 @@ namespace LabsMenu {
 		Process::Start("D:/University/OOPIP/OOPIP2/x64/Debug/IOStreams_1.exe");
 	}
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP2/x64/Debug/FIOStreams_2.exe");
 	}
 	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
@@ -333,7 +364,6 @@ namespace LabsMenu {
 
 	}
 	private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab5.exe");
 	}
 	private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
@@ -353,34 +383,34 @@ namespace LabsMenu {
 		this->DesktopLocation = form->DesktopLocation;
 		this->Show();
 	}
-private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab2.exe");
-}
-private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab3.exe");
-}
-private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
-	OOPIPMolchanM::lab4^ form = gcnew OOPIPMolchanM::lab4();
-	System::Drawing::Point location = this->DesktopLocation;
-	this->Hide();
+	private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab2.exe");
+	}
+	private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab3.exe");
+	}
+	private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
+		OOPIPMolchanM::lab4^ form = gcnew OOPIPMolchanM::lab4();
+		System::Drawing::Point location = this->DesktopLocation;
+		this->Hide();
 
-	form->DesktopLocation = location;
+		form->DesktopLocation = location;
 
-	form->ShowDialog();
-	this->DesktopLocation = form->DesktopLocation;
-	this->Show();
-}
-private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab5.exe");
-}
-private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab6.exe");
-}
-private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab7.exe");
-}
-private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
-	Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab9.exe");
-}
+		form->ShowDialog();
+		this->DesktopLocation = form->DesktopLocation;
+		this->Show();
+	}
+	private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab5.exe");
+	}
+	private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab6.exe");
+	}
+	private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab7.exe");
+	}
+	private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
+		Process::Start("D:/University/OOPIP/OOPIP_MolchanM/x64/Debug/Lab9.exe");
+	}
 	};
 }

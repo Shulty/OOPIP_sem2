@@ -3,7 +3,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Project Path="AssociativeCont_4/AssociativeCont_4.vcxproj" />
   <Project Path="FIOStreams_2/FIOStreams_2.vcxproj" Id="ea7f43fb-ccfb-4654-a0b5-d56871663ebb" />
   <Project Path="IOStreams_1/IOStreams_1.vcxproj" Id="f6da8710-0ff8-4b52-a8e0-ac5ed3852071" />
   <Project Path="LabsMenu/LabsMenu.vcxproj" />
+  <Project Path="SeqCont_3/SeqCont_3.vcxproj" Id="52d39648-e1c2-4b98-92e5-5c23608e3ab4" />
 </Solution>
